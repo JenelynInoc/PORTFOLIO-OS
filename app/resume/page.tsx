@@ -135,11 +135,11 @@ export default function Resume() {
                   {/* Project A */}
                   {/* Card background changed to #E8E4D6 */}
                   <div className="bg-[#E8E4D6] border-2 border-black p-5 md:p-6 rounded-xl shadow-[4px_4px_0px_0px_#000]">
-                      <h3 className="text-lg md:text-xl font-bold font-display mb-1">FCFS Scheduling Simulator</h3>
+                      <h3 className="text-lg md:text-xl font-bold font-display mb-1">SJF Non-Preemptive Scheduling</h3>
                       {/* Subtitle color changed to #D6CEB5 */}
-                      <p className="text-xs md:text-sm font-bold text-[#D6CEB5] mb-3 uppercase tracking-wide">First-Come, First-Served</p>
+                      <p className="text-xs md:text-sm font-bold text-[#D6CEB5] mb-3 uppercase tracking-wide">Short Job First Non-Preemptive</p>
                       <ul className="list-disc pl-4 space-y-2 text-xs md:text-sm font-medium text-[#5C4F48]">
-                          <li>Visually demonstrates the <strong className="text-black">FCFS</strong> CPU scheduling algorithm.</li>
+                          <li>Visually demonstrates the <strong className="text-black">SJF</strong> CPU scheduling algorithm.</li>
                           <li>Real-time calculation of Waiting Time and Turnaround Time.</li>
                           <li><strong>Stack:</strong> React, Next.js, JavaScript.</li>
                       </ul>
